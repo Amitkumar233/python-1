@@ -1,1 +1,13 @@
 This just contains learner python programs.
+* **Datetime module**
+ 
+ //Basic implementation
+ import datetime
+#x=datetime.datetime.now()
+#print(x)
+x=datetime.datetime(2024,4,19)
+print(x)
+print(x.month)
+print(x.day)
+print(x.year)
+print(x.strftime("%b %d %y %H:%M:%S"))
